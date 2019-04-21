@@ -4,7 +4,7 @@ email:             admin@statixdesign.com
 author:
    name: Statix Design
    url: https://statixdesign.com
-baseurl:           "/"
+baseurl:           ""
 url:               "http://adraclub.github.io"
 
 # Social Profiles
