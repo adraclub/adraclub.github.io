@@ -1,0 +1,83 @@
+<footer id="contact">
+    <div class="container py-5">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-12 text">
+                <h4 class="company-name">Company Name</h4>
+                <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus
+                    elementum. Etiam quis tristique lectus.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 item">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Web design</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">Hosting</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text newsletter">
+                <h4>Our Newsletter</h4>
+                <p>
+                    Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum
+                    dolore
+                    legam.
+                </p>
+                <form action="" method="post">
+                    <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text">
+                <h4>Contact Us</h4>
+                <p>
+                    A108 Adam Street <br>
+                    New York, NY 535022<br>
+                    United States <br>
+                    <strong>Phone:</strong> +1 5589 55488 55<br>
+                    <strong>Email:</strong> info@example.com<br>
+                </p>
+                <div class="col item social mt-4">
+                    {% if site.twitter_username %}
+                    <a href="https://www.twitter.com/{{ site.twitter_username }}" class="twitter"><i
+                            class="fa fa-twitter"></i></a>
+                    {% endif %}
+                    {% if site.facebook_username %}
+                    <a href="https://www.facebook.com/{{ site.facebook_username }}" class="facebook"><i
+                            class="fa fa-facebook"></i></a>
+                    {% endif %}
+                    {% if site.linkedin_username %}
+                    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="linkedin"><i
+                            class="fa fa-linkedin"></i></a>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <a href="https://github.com/{{ site.github_username }}" class="github"><i
+                            class="fa fa-github"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-auto py-2 text-center">
+                    <p class="mb-0">
+                        Copyright © {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+                        by <a href="{{ site.author.url }}" target="_blank">{{ site.author.name }}</a> All rights
+                        reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>

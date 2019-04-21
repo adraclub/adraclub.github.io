@@ -1,0 +1,3 @@
+## Free Jekyll Hotel Theme 
+
+Explanation is coming...

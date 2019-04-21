@@ -1,0 +1,35 @@
+{
+    "title": "Statix Hotel Theme Jekyll",
+    "name": "statix-hotel-jekyll",
+    "version": "1.0.0",
+    "description": "Clean and useful jekyll theme for Holiday Homes.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://statixdesign.com/template-overviews/statix-hotel-jekyll",
+    "bugs": {
+        "url": "https://github.com/statixdesign/statix-hotel-jekyll/issues",
+        "email": "feedback@statixdesign.com"
+    },
+    "license": "MIT",
+    "author": "Statix Design",
+    "contributors": [
+        "Ahmet Cangir (http://statixdesign.github.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/statixdesign/statix-hotel-jekyll.git"
+    },
+    "dependencies": {
+        "tabler-ui": "^0.0.34"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "gulp": "4.0.0"
+    }
+}

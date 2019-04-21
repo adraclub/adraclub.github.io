@@ -1,0 +1,17 @@
+// Import custom variables (overrides Bootstrap default variables)
+//@import "variables";
+
+
+// Import Core Clean Blog SCSS
+// @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
+
+@import "variables";
+@import "mixins";
+@import "main";
+@import "header";
+@import "masthead";
+@import "intro";
+@import "navigation";
+@import "back-to-top";
+@import "footer";
+@import "gallery";
