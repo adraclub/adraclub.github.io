@@ -4,42 +4,28 @@ layout: default
 
 {% include intro.html %}
 
-<main class="container">
+<main class="container-fluid">
   <div class="row">
-    <div class="col-lg-8 col-md-10 mx-auto">
+    <div class="col-md-10 mx-auto">
 
-      {{ content }}
-
-      <!-- Home Post List -->
-      {% for post in site.posts limit : 5 %}
-
-      <article class="post-preview">
-        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-          <h2 class="post-title">{{ post.title }}</h2>
-          {% if post.subtitle %}
-          <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-          {% else %}
-          <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-          {% endif %}
-        </a>
-        <p class="post-meta">Posted by
-          {% if post.author.name %}
-          {{ post.author.name }}
-          {% else %}
-          {{ site.author.name }}
-          {% endif %}
-          on
-          {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
-      </article>
-
-      <hr>
-
-      {% endfor %}
-
-      <!-- Pager -->
-      <div class="clearfix">
-        <a class="btn btn-primary float-right" href="{{site.baseurl}}posts">View All Posts &rarr;</a>
-      </div>
+        <p>2018 Yaz Tatilinizde keşfedilmemişi keşfedin;<br>
+        Sessizliğin , Asırlık Çam ve Palamut Ağaçların dinginliğinde kuş sesleriyle
+        <strong>"ÖREN ADRA CLUB APART PANSİYON TATİL EVLERİ…"</strong></p>
+        <p><strong>Neden Ören’de Tatil neden çok önemlidir….!</strong></p>
+        <p>Tesisimizde, hamaklarda dinlenir, asırlık ağaçların altında mangal yaparken; hayatınızda alamadığınız en temiz Oksijenle de tanışacaksınız. Keza Ören Beldesi Alp Dağlarından sonra Dünyanın 2. Oksijen bakımından en temiz ve yoğun olmasıyla tam bir Sağlık Merkezi’dir. Alerjik Bronşit, Astım, Kalp ve Nefes darlığı rahatsızlığı olan kişiler için şifa kaynağı olduğu kanıtlanmıştır. Yörenin Oksijen Çadırı olarak anılması boşuna değildir…</p>
+        <p>Beldemizde, sabahları Kuş sesleriyle kahvaltı yaparken, ağaçtan ağaca dolaşan sincapları da görebilme imkanına da sahipsiniz…</p>
+        <p>Ören konumu itibarı ile Deniz , Doğa, Kaplıca ve Eğlence kısaca ne arıyorsanız her şeyi bulmanız mümkün. Keşfedilmemişi bulmak sizin elinizde….</p>
+        <blockquote>
+        Ören 1,5 km. boyunca yay gibi kıvrılan, Altın Kumlu Ören Plajı ; genişliği ile de Türkiye’nin en dikkat çekici plajlarından biridir. Ören Plajı temizliği ve doğallığıyla, tüm Dünya’da “Denize Girilebilirlik” ölçütü olan <strong><a title="Mavi Bayrak" href="https://tr.wikipedia.org/wiki/Mavi_Bayrak" target="_blank" rel="noopener">Mavi Bayrak</a></strong> ile de taçlandırılmıştır… Bu denizde yüzerken ; arka planda yükselen Madra ve Kaz Dağlarını da seyretmeniz çok ayrıcalık verecektir. Muhteşem manzaralı ve Mavi Bayraklı denize, tesisimiz sadece (100-150 mt.) 2-3 dakikalık yürüme mesafesindedir. Ayrıca Güneşin, Kaz Dağlarından batarken verdiği; gizemli manzaraya da doyamayacaksınız…
+        </blockquote>
+        <p>Kafeteryamıza Masa Tenisi, Tavla, Okey ve Satranç ücretsiz oynayabilirsiz.</p>
+        <blockquote><p>Sıcak soğuk içeceklerinizi içerken ve aparetiflerinizi alırken projeksiyonda; TV. – Maç ve film keyfide sizleri bekliyor. Son çıkan oyunlarla Sony Play Station 3 ve Langırt çok cuzi fiyatlarda oynayabileceksiniz. Ayrıca çevre turları için Kiralık Bisikletler de sizleri bekliyor.</p></blockquote>
+        <blockquote>
+        <p>Adra Club Ailesi olarak ,</p>
+        <p>sizleri aile ortamında&nbsp; huzurlu</p>
+        <p>tatil yapmanız için bekliyoruz.</p>
+        </blockquote>
+        <p><em>Adra Club ayrıcalıklar ötesidir…</em></p>
 
     </div>
   </div>

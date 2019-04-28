@@ -1,11 +1,15 @@
 /* Footer */
 footer {
   color: #bbb;
-  background-color: $gray-800;
+  // background-color: $gray-800;
   text-align: left;
+
+  background: linear-gradient(rgba(0, 142, 99, 0.5), rgba(0, 0, 0, 1)), url(../../images/blue-blur-color-932638.jpg) fixed center center;
+  background-size: cover;
 
   a {
     color: #bbb;
+
     &:active,
     &:focus,
     &:hover {
@@ -29,7 +33,7 @@ footer {
     padding: 0;
     list-style: none;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0;
 
     a {
@@ -59,7 +63,7 @@ footer {
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   @media (max-width:767px) {
@@ -142,12 +146,45 @@ footer {
   }
 
   .bottom {
-    background: $gray-900;
+    background: #010101;
 
     p,
     a {
       font-size: 14px;
       color: #666;
     }
+  }
+}
+
+
+.interview-info-banner {
+  background: linear-gradient(140deg, #193b84 15%, #037bc1);
+  color: #fff;
+  width: 100%
+}
+
+
+
+.interview-info-banner .banner-heading {
+  font-size: 18px;
+  font-weight: 700
+}
+
+.interview-info-banner .banner-text {
+  font-size: 13px;
+  padding-top: 15px
+}
+
+@media screen and (max-width:767px) {
+  .interview-info-banner .banner-wrapper {
+      flex-direction: column;
+      margin: 10px auto
+  }
+  .interview-info-banner .banner-block {
+      width: 100%;
+      margin: 15px 0
+  }
+  .interview-info-banner .banner-text {
+      padding-top: 10px
   }
 }

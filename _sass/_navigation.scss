@@ -83,7 +83,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 13px;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     outline: none;
 }
 
@@ -157,11 +157,14 @@
     padding-top: 18px;
     bottom: 0;
     z-index: 998;
-    background: rgba(0, 0, 0, 0.8);
+    // background: rgba(0, 0, 0, 0.8);
     left: -260px;
     width: 260px;
     overflow-y: auto;
     transition: 0.4s;
+
+    background: linear-gradient(rgba(0, 142, 99, 0.5), rgba(0, 0, 0, 1)), url(../../images/blue-blur-color-932638.jpg) fixed center center;
+    background-size: cover;
 }
 
 #mobile-nav ul {

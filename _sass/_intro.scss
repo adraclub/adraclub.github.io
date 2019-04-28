@@ -44,17 +44,18 @@
   #intro h2 {
     color: #fff;
     margin-bottom: 30px;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
   }
   
   @media (max-width: 768px) {
     #intro h2 {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
   
   #intro p {
+    font-size: 22px;
     width: 80%;
     margin: 0 auto 30px auto;
     color: #fff;

@@ -117,12 +117,4 @@ jQuery(document).ready(function( $ ) {
   });
 
   baguetteBox.run('.gallery');
-
-  var elem = document.querySelector('.grid');
-  var msnry = new Masonry( elem, {
-    // options
-    itemSelector: '.grid-item',
-    columnWidth: 200
-  });
-
 });
