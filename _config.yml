@@ -1,51 +1,60 @@
-title:             Statix Hotel Jekyll Theme
-description:       A Hotel Theme by Statix Design
-email:             your-email@example.com
+---
+title: Statix Hotel Jekyll Theme
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: A Hotel Theme by Statix Design
+email: your-email@example.com
 author:
-   name: Statix Design
-   url: https://statixdesign.com
-#baseurl:           "/adraclub-hotel-jekyll"
-url:               "http://adraclub.github.io"
-
-# Social Profiles
-twitter_username:  adraclub
-github_username:   adraclub
+  name: Statix Design
+  url: https://statixdesign.com
+url: http://adraclub.github.io
+twitter_username: adraclub
+github_username: adraclub
 facebook_username: adraclub
-
-# Build settings
-markdown:          kramdown
-paginate:          5
-paginate_path:     "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-tidy
-
+- jekyll-feed
+- jekyll-paginate
+- jekyll-tidy
 sass:
   style: compressed
-
 slider:
   text_color: white
   shadow_color: black
   slides:
-    - image: /images/slides/slide_1.jpg
-      title: Doğa Deniz ve Tarihin Birleştiği Ören...
-      text: Ören'de ister doğa, ister deniz, ister Tarih, ister kaplıca, kısaca herşeyi bulacaksınız...
-    - image: /images/slides/slide_2.jpg
-      title: Altın Kumlu, Mavi Bayraklı Halk Plajı Sizleri Bekliyor
-      text: Altın kumlu mavi bayrıklı Ören Halk Plajı'na 2-3 dakika yürüme mesafesinde olacaksınız...
-    - image: /images/slides/slide_2.jpg
-      title: Ören’de Aradıklarınızdan Çok Daha Fazlasını Bulacaksınız...
-      text: İster doğayı doyasıya seyredin... İsterseniz körfezde balık tutma ayrıcalığını yaşayın...
-    - image: /images/slides/slide_2.jpg
-      title: Adra Club Apart Pansiyon Tatil Evleri Ayrıcalıktır
-      text: Beldemizde, sabahları Kuş sesleriyle kahvaltı yaparken ağaçtan ağaca dolaşan sincapları görebilme imkanına da sahipsiniz...
-    - image: /images/slides/slide_2.jpg
-      title: Mavi Bayraklı Burhaniye Ören Plajı
-      text: Tesisimizden sadece 2-3 dakika yürüme mesafesinde Ören Plajı temizliği, doğallığı ve eşsiz manzarasıyla sizleri bekliyor...
-    - image: /images/slides/slide_2.jpg
-      title: Adra Club’da Mangal Keyfi Çok Özeldir
-      text: Mangal yapmaya ve asırlık ağaçların arasında, hamaklarda dinlenmeye, en temiz oksijeni solumay doyamayacaksınız...
-    - image: /images/slides/slide_2.jpg
-      title: Tesisimizden Bisiklet Kiralayabilirsiniz
-      text: Ailenizle birlikte Ören'in muhteşem güzelliklerini gönlünüzce gezmeye ne dersiniz?
+  - image: "/images/slides/slide_1.jpg"
+    title: Doğa Deniz ve Tarihin Birleştiği Ören...
+    text: Ören'de ister doğa, ister deniz, ister Tarih, ister kaplıca, kısaca herşeyi
+      bulacaksınız...
+  - image: "/images/slides/slide_2.jpg"
+    title: Altın Kumlu, Mavi Bayraklı Halk Plajı Sizleri Bekliyor
+    text: Altın kumlu mavi bayrıklı Ören Halk Plajı'na 2-3 dakika yürüme mesafesinde
+      olacaksınız...
+  - image: "/images/slides/slide_2.jpg"
+    title: Ören’de Aradıklarınızdan Çok Daha Fazlasını Bulacaksınız...
+    text: İster doğayı doyasıya seyredin... İsterseniz körfezde balık tutma ayrıcalığını
+      yaşayın...
+  - image: "/images/slides/slide_2.jpg"
+    title: Adra Club Apart Pansiyon Tatil Evleri Ayrıcalıktır
+    text: Beldemizde, sabahları Kuş sesleriyle kahvaltı yaparken ağaçtan ağaca dolaşan
+      sincapları görebilme imkanına da sahipsiniz...
+  - image: "/images/slides/slide_2.jpg"
+    title: Mavi Bayraklı Burhaniye Ören Plajı
+    text: Tesisimizden sadece 2-3 dakika yürüme mesafesinde Ören Plajı temizliği,
+      doğallığı ve eşsiz manzarasıyla sizleri bekliyor...
+  - image: "/images/slides/slide_2.jpg"
+    title: Adra Club’da Mangal Keyfi Çok Özeldir
+    text: Mangal yapmaya ve asırlık ağaçların arasında, hamaklarda dinlenmeye, en
+      temiz oksijeni solumay doyamayacaksınız...
+  - image: "/images/slides/slide_2.jpg"
+    title: Tesisimizden Bisiklet Kiralayabilirsiniz
+    text: Ailenizle birlikte Ören'in muhteşem güzelliklerini gönlünüzce gezmeye ne
+      dersiniz?
