@@ -1,54 +1,51 @@
-title:             Adraclub Holiday Homes Jekyll Theme
-description:       A Blog Theme by Statix Design
-email:             your-email@example.com
-author:            Statix Design
-baseurl:           "/jekyll-hotel-adraclub"
-url:               "http://adraclub.github.io"
-
-# Social Profiles
-twitter_username:  adraclub
-github_username:   adraclub
+---
+title: Adraclub Holiday Homes Jekyll Theme
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: A Blog Theme by Statix Design
+email: your-email@example.com
+author: Statix Design
+baseurl: "/jekyll-hotel-adraclub"
+url: http://adraclub.github.io
+twitter_username: adraclub
+github_username: adraclub
 facebook_username: adraclub
-
-# Build settings
-markdown:          kramdown
-paginate:          5
-paginate_path:     "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-tidy
-  - jekyll-toc
-  - jekyll-random
-
+- jekyll-feed
+- jekyll-include-cache
+- jekyll-paginate
+- jekyll-redirect-from
+- jekyll-tidy
+- jekyll-toc
+- jekyll-random
 theme-plugins:
   charts-c3:
     name: c3.js Charts
-    files: [css, js]
+    files:
+    - css
+    - js
   maps-google:
     name: Google Maps
-    files: [css, js]
+    files:
+    - css
+    - js
   input-mask:
     name: Input Mask
-    files: [js]
+    files:
+    - js
   datatables:
     name: Datatables
-    files: [js]
-#  iconfonts:
-#    name: Iconfonts
-#    files: [css]
-#  prismjs:
-#    name: Code Highlight
-#    files: [css, js]
-#  fullcalendar:
-#    name: FullCalendar
-#    files: [css, js]
-#  weather:
-#    name: Weather
-#    files: [css]
-
+    files:
+    - js
 exclude:
-  - package.json
-  - gulpfile.js
+- package.json
+- gulpfile.js
