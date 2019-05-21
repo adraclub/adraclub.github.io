@@ -52,3 +52,7 @@ theme-plugins:
 exclude:
   - package.json
   - gulpfile.js
+
+collections:
+  changelog:
+    output: false

@@ -2,3 +2,8 @@ index:
   name: Home
   icon: fe fe-home
   url: index.html
+
+about_us:
+  name: Hakkımızda
+  # icon: fe fe-home
+  url: hakkimizda.html
