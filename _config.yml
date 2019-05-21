@@ -7,10 +7,11 @@ collections:
   uploads:
     title: Uploads
     output: true
+  changelog:
+    output: false
 description: A Blog Theme by Statix Design
 email: your-email@example.com
 author: Statix Design
-baseurl: "/jekyll-hotel-adraclub"
 url: http://adraclub.github.io
 twitter_username: adraclub
 github_username: adraclub
@@ -48,7 +49,3 @@ theme-plugins:
 exclude:
   - package.json
   - gulpfile.js
-
-collections:
-  changelog:
-    output: false
