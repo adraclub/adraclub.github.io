@@ -1,10 +1,6 @@
----
 title: Adraclub Holiday Homes Jekyll Theme
 timezone: UTC
 collections:
-  changelog:
-    title: Changelog
-    output: false
   posts:
     title: Posts
     output: true
@@ -51,10 +47,5 @@ theme-plugins:
     files:
     - js
 exclude:
-<<<<<<< HEAD
   - package.json
   - gulpfile.js
-=======
-- package.json
-- gulpfile.js
->>>>>>> 6e22079fa996c2cc1e500a113bdac6465c5c5741
