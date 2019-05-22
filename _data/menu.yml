@@ -1,9 +1,12 @@
 index:
   name: Home
-  icon: fe fe-home
+  # icon: fe fe-home
   url: index.html
 
 about_us:
   name: Hakkımızda
-  # icon: fe fe-home
   url: hakkimizda.html
+
+footer:
+  name: Footer
+  url: 

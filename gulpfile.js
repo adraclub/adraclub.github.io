@@ -51,35 +51,36 @@ function clean() {
 
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
-  // Bootstrap
-  var bootstrap = gulp.src('../../node_modules/bootstrap/dist/**/*')
-    .pipe(gulp.dest('./vendor/bootstrap'));
+
+  // JS Vendors
+  var js_vendors = gulp.src([
+    '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+    '../../node_modules/jquery/dist/*.min.js',
+    '../../node_modules/baguettebox.js/dist/*.min.js',
+    '../../node_modules/jquery.easing/*.min.js',
+  ]).pipe(gulp.dest('./assets/js/vendors'))
+
+  var css_vendors = gulp.src([
+    '../../node_modules/baguettebox.js/dist/*.min.css',
+  ]).pipe(gulp.dest('./assets/css/vendors'))
+
   // Font Awesome Assets
   var fontAwesomeCss = gulp.src([
     '../../node_modules/font-awesome/css/**/*'
-  ])
-    .pipe(gulp.dest('./vendor/font-awesome/css'))
+  ]).pipe(gulp.dest('./assets/fonts/font-awesome/css'))
+
   var fontAwesomeFonts = gulp.src([
     '../../node_modules/font-awesome/fonts/**/*'
-  ])
-    .pipe(gulp.dest('./vendor/font-awesome/fonts'))
-  // jQuery
-  var jquery = gulp.src([
-    '../../node_modules/jquery/dist/*',
-    '!../../node_modules/jquery/dist/core.js'
-  ])
-    .pipe(gulp.dest('./vendor/jquery'));
-  // baguetteBox Assets
-  var baguetteBox = gulp.src([
-    '../../node_modules/baguettebox.js/dist/**/*'
-  ])
-    .pipe(gulp.dest('./vendor/baguettebox'))
+  ]).pipe(gulp.dest('./assets/fonts/font-awesome/fonts'))
+
+
+
   // Tabler UI Assets
-  var tabler = gulp.src([
-    '../../node_modules/tabler-ui/dist/assets/**/*'
-  ])
-    .pipe(gulp.dest('./vendor/tabler-ui'))
-  return merge(bootstrap, fontAwesomeCss, fontAwesomeFonts, baguetteBox, tabler, jquery);
+  // var tabler = gulp.src([
+  //   '../../node_modules/tabler-ui/dist/assets/**/*'
+  // ])
+  //   .pipe(gulp.dest('./vendor/tabler-ui'))
+  return merge(js_vendors, fontAwesomeCss, fontAwesomeFonts);
 }
 
 function styles() {
@@ -162,6 +163,7 @@ const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 // const jekyll = gulp.series(jekyll);
 
 // Export tasks
+exports.modules = modules;
 exports.styles = styles;
 exports.css = css;
 exports.js = js;
