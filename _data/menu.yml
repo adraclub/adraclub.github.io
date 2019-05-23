@@ -1,12 +1,8 @@
-index:
-  name: Home
+anasanyfa:
+  name: Anasayfa
   # icon: fe fe-home
   url: index.html
 
-about_us:
+hakkimizda:
   name: Hakkımızda
   url: hakkimizda.html
-
-footer:
-  name: Footer
-  url: 

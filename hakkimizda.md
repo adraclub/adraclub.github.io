@@ -1,7 +1,8 @@
 ---
-title: Empty page
-layout: default
-menu: pages.empty
+title: Hakkımızda
+layout: page
+description: This is what I do.
+background: '/assets/images/bg-about.jpg'
 ---
 
 # Deneme Sayfası
