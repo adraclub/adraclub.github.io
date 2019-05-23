@@ -1,0 +1,28 @@
+---
+layout: base
+---
+<!-- Home Header -->
+<header class="masthead" {% if page.background %}
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')" {% endif %}>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>{{ site.title }}</h1>
+          {% if site.description %}
+          <span class="subheading">{{ site.description }}</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container flex-fill">
+  <div class="row">
+    {{ content }}
+  </div>
+</div>
+
+{% include newsletter.html %}

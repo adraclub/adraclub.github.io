@@ -1,7 +1,25 @@
 // @import '../variables';
 @import '../variables';
 @import 'mixins';
+@import 'back';
 @import 'features';
 @import 'header';
-@import 'newsletter';
+@import 'masthead';
+@import 'reservation';
 // @import 'masthead';
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.reservation .overlay-bg {
+    background: rgba(4, 9, 30, 0.8);
+}
+
+.relative {
+    position: relative;
+}
