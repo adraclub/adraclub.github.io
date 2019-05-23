@@ -1,3 +1,6 @@
+$overlay-opacity: .8;
+
+
 // @import '../variables';
 @import '../variables';
 @import 'mixins';
@@ -8,18 +11,25 @@
 @import 'reservation';
 // @import 'masthead';
 
-.overlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
 
-.reservation .overlay-bg {
-    background: rgba(4, 9, 30, 0.8);
-}
 
 .relative {
     position: relative;
+}
+
+.blockquote-custom {
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: 50px;
 }

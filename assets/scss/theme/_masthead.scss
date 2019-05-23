@@ -1,14 +1,59 @@
+// // Styling for the masthead
+// header.masthead {
+//     padding: 100px auto;
+//     background-image: url('/assets/img/bg.jpg');
+//     background-position: top center;
+//     @include background-cover;
+
+//     h1 {
+//         font-size: 2rem;
+//         font-weight: 700;
+//         text-shadow: 1px 2px 4px #000000;
+//     }
+
+//     p {
+//         font-weight: 500;
+//         text-shadow: 1px 2px 4px #000000;
+//     }
+
+//     @media (min-width: 768px) {
+//         p {
+//             font-size: 1rem;
+//         }
+//     }
+
+//     @media (min-width: 992px) {
+//         //height: 100vh;
+//         //min-height: 650px;
+//         padding-top: 0;
+//         padding-bottom: 0;
+
+//         h1 {
+//             font-size: 3rem;
+//         }
+//     }
+
+//     @media (min-width: 1200px) {
+//         h1 {
+//             font-size: 3rem;
+//         }
+//     }
+// }
+
 // Styling for the masthead
 header.masthead {
     // TIP: Background images are set within the HTML using inline CSS!
     // margin-bottom: 50px;
-    padding: 3rem 0 7rem;
+    // padding: 3rem 0 7rem;
+    padding: 150px 0 50px;
     position: relative;
     background-size: cover;
     background: no-repeat center center;
     background-attachment: scroll;
     position: relative;
     @include background-cover;
+
+
 
     .overlay {
         position: absolute;
@@ -17,7 +62,9 @@ header.masthead {
         height: 100%;
         width: 100%;
         background-color: $gray-600;
-        background-image: url(/assets/img/overlay.svg), linear-gradient(45deg, $gray-900 0%, $gray-800 100%);
+        // background-image: url(/assets/img/overlay.svg), linear-gradient(45deg, $gray-900 0%, $gray-800 100%);
+
+        background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
         background-size: cover;
         z-index: 0;
         opacity: 0.5;
@@ -26,17 +73,27 @@ header.masthead {
     .page-heading,
     .post-heading,
     .site-heading {
-        padding: 200px 0 150px;
+        // padding: 20px 0;
         color: white;
+        text-shadow: 1px 2px 4px #000000;
 
         @media only screen and (min-width: 768px) {
-            padding: 200px 0;
+            // padding: 200px 0;
+        }
+
+        h1 {
+            padding: 20rem auto;
+        }
+
+        .fa-star {
+            color: $orange;
+            ;
         }
     }
 
     .page-heading,
     .site-heading {
-        text-align: center;
+
 
         h1 {
             @include sans-serif-font;
@@ -44,10 +101,24 @@ header.masthead {
             font-weight: 900;
         }
 
+        .subheading {
+            @include sans-serif-font;
+            font-size: 1rem;
+            opacity: 0.9;
+            line-height: 1.5;
+            display: block;
+            // padding: 1rem;
+            text-shadow: 1px 2px 4px #000000;
+        }
+
         // Medium devices (tablets, 768px and up)
         @media (min-width: 768px) {
             h1 {
                 font-size: 1rem * 2;
+            }
+
+            .subheading {
+                font-size: 1rem * 1.2;
             }
         }
 
@@ -56,6 +127,10 @@ header.masthead {
             h1 {
                 font-size: 1rem * 2.5;
             }
+
+            .subheading {
+                font-size: 1rem * 1.4;
+            }
         }
 
         // Extra large devices (large desktops, 1200px and up)
@@ -63,41 +138,21 @@ header.masthead {
             h1 {
                 font-size: 1rem * 3;
             }
+
+            .subheading {
+                font-size: 1rem * 1.6;
+            }
         }
 
-        // .subheading {
-        //     font-size: 24px;
-        //     font-weight: 300;
-        //     line-height: 1.1;
-        //     display: block;
-        //     margin: 10px 0 0;
-        //     @include sans-serif-font;
-        // }
 
-        .subheading {
-            @include sans-serif-font;
-            font-size: 24px;
-            opacity: 0.5;
-            line-height: 1.1;
-            display: block;
-            padding: 1rem;
-        }
 
         .btn {
             border: 2px solid #fff;
         }
 
-        @media only screen and (min-width: 768px) {
-            h1 {
-                // font-size: 80px;
-            }
-        }
     }
 
     .post-heading {
-        h1 {
-            // font-size: 35px;
-        }
 
         .meta,
         .subheading {
@@ -120,16 +175,6 @@ header.masthead {
 
             a {
                 color: $white;
-            }
-        }
-
-        @media only screen and (min-width: 768px) {
-            h1 {
-                // font-size: 55px;
-            }
-
-            .subheading {
-                // font-size: 30px;
             }
         }
     }
