@@ -14,8 +14,14 @@ $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      // $('#header .navbar').removeClass('navbar-default');
+      // $('#header .navbar').addClass('navbar-dark');
+      $('.back-to-top').fadeIn('slow');
     } else {
       $('#header').removeClass('header-scrolled');
+      // $('#header .navbar').removeClass('navbar-dark');
+      // $('#header .navbar').addClass('navbar-default');
+      $('.back-to-top').fadeOut('slow');
     }
   });
 

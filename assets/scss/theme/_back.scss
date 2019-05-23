@@ -2,15 +2,14 @@
 .back-to-top {
     position: fixed;
     display: none;
-    background: #18d26e;
+    background: $primary;
     color: #fff;
-    display: inline-block;
     width: 44px;
     height: 44px;
     text-align: center;
     line-height: 1;
     font-size: 16px;
-    border-radius: 50%;
+    border-radius: 20%;
     right: 15px;
     bottom: 15px;
     transition: background 0.5s;
