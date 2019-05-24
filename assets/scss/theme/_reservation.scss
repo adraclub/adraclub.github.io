@@ -1,13 +1,11 @@
 .reservation {
-
+    position: relative;
+    background-size: cover;
     background-color: $gray-600;
     background-attachment: scroll;
-    position: relative;
-    @include background-cover;
-
     background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
-        url(../images/bg-about.jpg) fixed center center;
-    background-size: cover;
+        url(../images/bg-about.jpg) fixed center;
+    @include background-cover;
     // padding: 60px 0;
 
     .reservation-form {
@@ -15,22 +13,20 @@
     }
 
     .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background: rgba($gray-900, $overlay-opacity);
+        background-color: #000;
+        opacity: 0.5;
     }
 }
 
 .reservation p {
     // font-size: 1rem * 1.2;
-    // line-height: 1.5;
+    font-weight: 300;
+    line-height: 1.5;
     opacity: 0.6;
-    @include sans-serif-font;
+    // @include sans-serif-font;
 }
 
 .reservation h3 {
     @include sans-serif-font;
+    font-weight: 500;
 }

@@ -1,51 +1,7 @@
-// // Styling for the masthead
-// header.masthead {
-//     padding: 100px auto;
-//     background-image: url('/assets/img/bg.jpg');
-//     background-position: top center;
-//     @include background-cover;
-
-//     h1 {
-//         font-size: 2rem;
-//         font-weight: 700;
-//         text-shadow: 1px 2px 4px #000000;
-//     }
-
-//     p {
-//         font-weight: 500;
-//         text-shadow: 1px 2px 4px #000000;
-//     }
-
-//     @media (min-width: 768px) {
-//         p {
-//             font-size: 1rem;
-//         }
-//     }
-
-//     @media (min-width: 992px) {
-//         //height: 100vh;
-//         //min-height: 650px;
-//         padding-top: 0;
-//         padding-bottom: 0;
-
-//         h1 {
-//             font-size: 3rem;
-//         }
-//     }
-
-//     @media (min-width: 1200px) {
-//         h1 {
-//             font-size: 3rem;
-//         }
-//     }
-// }
-
 // Styling for the masthead
 header.masthead {
-    // TIP: Background images are set within the HTML using inline CSS!
-    // margin-bottom: 50px;
-    // padding: 3rem 0 7rem;
-    padding: 150px 0 50px;
+    margin-bottom: 30px;
+    padding: 150px 0 100px;
     position: relative;
     background-size: cover;
     background: no-repeat center center;
@@ -53,33 +9,17 @@ header.masthead {
     position: relative;
     @include background-cover;
 
-
-
-    .overlay {
+    svg.wave {
         position: absolute;
-        top: 0;
+        bottom: -1px;
         left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: $gray-600;
-        // background-image: url(/assets/img/overlay.svg), linear-gradient(45deg, $gray-900 0%, $gray-800 100%);
-
-        background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-        background-size: cover;
-        z-index: 0;
-        opacity: 0.5;
     }
 
     .page-heading,
     .post-heading,
     .site-heading {
-        // padding: 20px 0;
         color: white;
         text-shadow: 1px 2px 4px #000000;
-
-        @media only screen and (min-width: 768px) {
-            // padding: 200px 0;
-        }
 
         h1 {
             padding: 20rem auto;
@@ -87,18 +27,21 @@ header.masthead {
 
         .fa-star {
             color: $orange;
-            ;
         }
     }
 
     .page-heading,
     .site-heading {
-
-
         h1 {
             @include sans-serif-font;
             font-size: 1rem * 1.8;
             font-weight: 900;
+        }
+
+        .desc {
+            @include sans-serif-font;
+            font-size: 1rem * 1.6;
+            font-weight: 500;
         }
 
         .subheading {
@@ -107,14 +50,18 @@ header.masthead {
             opacity: 0.9;
             line-height: 1.5;
             display: block;
-            // padding: 1rem;
-            text-shadow: 1px 2px 4px #000000;
+            text-shadow: 1px 2px 4px #000;
         }
 
         // Medium devices (tablets, 768px and up)
         @media (min-width: 768px) {
             h1 {
                 font-size: 1rem * 2;
+            }
+
+            .desc {
+                @include sans-serif-font;
+                font-size: 1rem * 1.8;
             }
 
             .subheading {
@@ -128,6 +75,11 @@ header.masthead {
                 font-size: 1rem * 2.5;
             }
 
+            .desc {
+                @include sans-serif-font;
+                font-size: 1rem * 2.1;
+            }
+
             .subheading {
                 font-size: 1rem * 1.4;
             }
@@ -137,6 +89,11 @@ header.masthead {
         @media (min-width: 1200px) {
             h1 {
                 font-size: 1rem * 3;
+            }
+
+            .desc {
+                @include sans-serif-font;
+                font-size: 1rem * 2.5;
             }
 
             .subheading {

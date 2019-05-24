@@ -1,0 +1,16 @@
+.footer {
+    // font-size: $font-size-base;
+    // @include sans-serif-font;
+
+    h4 {
+        color: $gray-600;
+        text-transform: uppercase;
+        font-size: $font-size-sm;
+        font-weight: 500;
+        @include sans-serif-font;
+    }
+
+    .footer-sub {
+        font-size: $font-size-sm;
+    }
+}
