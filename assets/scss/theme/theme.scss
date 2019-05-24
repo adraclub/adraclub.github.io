@@ -1,17 +1,19 @@
 $overlay-opacity: .8;
 
 
+
 // @import '../variables';
 @import '../variables';
 @import 'mixins';
 @import 'back';
 @import 'features';
 @import 'header';
+@import 'main';
 @import 'masthead';
 @import 'reservation';
+@import 'footer';
+
 // @import 'masthead';
-
-
 
 .relative {
     position: relative;
@@ -32,4 +34,19 @@ $overlay-opacity: .8;
     position: absolute;
     top: -25px;
     left: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    // background-color: #000;
+    background-image: url(../img/overlay.svg);
+
+    // background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    background-size: cover;
+    z-index: 0;
+    opacity: 0.5;
 }

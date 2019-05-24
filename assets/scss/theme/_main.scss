@@ -1,0 +1,9 @@
+.main {
+    p {
+        font-weight: 400;
+        font-size: $font-size-base * 1.125;
+        @include sans-serif-font;
+        color: $gray-700;
+        // margin-bottom: 0;
+    }
+}
