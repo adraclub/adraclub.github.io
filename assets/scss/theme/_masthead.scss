@@ -1,6 +1,5 @@
 // Styling for the masthead
 header.masthead {
-    margin-bottom: 30px;
     padding: 150px 0 100px;
     position: relative;
     background-size: cover;
@@ -9,10 +8,8 @@ header.masthead {
     position: relative;
     @include background-cover;
 
-    svg.wave {
-        position: absolute;
-        bottom: -1px;
-        left: 0;
+    .site-heading {
+        height: 100%;
     }
 
     .page-heading,
@@ -27,6 +24,10 @@ header.masthead {
 
         .fa-star {
             color: $orange;
+        }
+
+        span.desc {
+            @include handwriting-font;
         }
     }
 
@@ -47,7 +48,6 @@ header.masthead {
         .subheading {
             @include sans-serif-font;
             font-size: 1rem;
-            opacity: 0.9;
             line-height: 1.5;
             display: block;
             text-shadow: 1px 2px 4px #000;
@@ -65,7 +65,7 @@ header.masthead {
             }
 
             .subheading {
-                font-size: 1rem * 1.2;
+                font-size: 1rem * 1.4;
             }
         }
 
@@ -81,7 +81,7 @@ header.masthead {
             }
 
             .subheading {
-                font-size: 1rem * 1.4;
+                font-size: 1rem * 1.6;
             }
         }
 
@@ -97,14 +97,22 @@ header.masthead {
             }
 
             .subheading {
-                font-size: 1rem * 1.6;
+                font-size: 1rem * 2;
             }
         }
 
 
 
         .btn {
-            border: 2px solid #fff;
+            opacity: 0.9;
+            @include sans-serif-font;
+            @include transition-all;
+            font-weight: 700;
+            // text-transform: uppercase;
+            border: none;
+            border-radius: 2rem;
+            padding: 1rem 3rem;
+            border: 3px solid rgba($gray-100, 0.5);
         }
 
     }

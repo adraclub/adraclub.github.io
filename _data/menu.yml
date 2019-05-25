@@ -3,6 +3,18 @@ anasanyfa:
   # icon: fe fe-home
   url: index.html
 
+tesisimiz:
+  name: Tesisimiz
+  url: tesisimiz
+
+aktiviteler:
+  name: Aktiviteler
+  url: aktiviteler
+
+oren:
+  name: Ören Fotoğrafları
+  url: oren
+
 hakkimizda:
   name: Hakkımızda
-  url: hakkimizda.html
+  url: hakkimizda
