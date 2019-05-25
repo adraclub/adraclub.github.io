@@ -1,0 +1,26 @@
+// Custom horizontal rules
+hr.divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: $primary;
+}
+
+hr.light {
+    border-color: $white;
+}
+
+// Button restyling
+.btn {
+    @include sans-serif-font;
+    // background: #FD9644;
+}
+
+.btn-xl {
+    // padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    // text-transform: uppercase;
+    border: none;
+    // border-radius: 15rem;
+
+}

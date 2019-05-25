@@ -14,9 +14,13 @@
 }
 
 @mixin serif-font() {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montaga', serif;
 }
 
 @mixin sans-serif-font() {
-    font-family: 'Oswald','Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Source+Sans+Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin handwriting-font() {
+    font-family: 'Kaushan Script', cursive;
 }

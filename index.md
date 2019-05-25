@@ -1,7 +1,7 @@
 ---
 layout: home
-menu: pages.empty
-title: About Me
+menu: home
+title: Ören Adra Club Apart Tatil Evleri
 description: This is what I do.
 background: '/assets/images/bg.jpg'
 ---
