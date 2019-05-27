@@ -9,18 +9,11 @@ hr.light {
     border-color: $white;
 }
 
-// Button restyling
-.btn {
-    @include sans-serif-font;
-    // background: #FD9644;
-}
-
-.btn-xl {
-    // padding: 1.25rem 2.25rem;
-    font-size: 0.85rem;
-    font-weight: 700;
-    // text-transform: uppercase;
-    border: none;
-    // border-radius: 15rem;
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    width: 100%;
 }

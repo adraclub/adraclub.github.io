@@ -1,5 +1,5 @@
 ---
-title: Ören'den Fotoğraflar
+title: Ören Hakkında
 layout: page
 # description: This is what I do.
 background: '/assets/images/bg-about.jpg'
@@ -16,14 +16,10 @@ Geniş ve doğal kumlu Ören Plajı ulusal ve uluslararası Plaj Voleybolu (Worl
 
 Körfezde özellikle Burhaniye-Ören, Alp Dağları’ndan sonra Dünyanın en yoğun Oksijenine sahiptir ve oksijen çadırı olarak adlandırılmaktadır.
 
-{% include image-gallery.html folder="/assets/images/oren/plaj/" %}
-
 ## İskele
 Güzel bir balıkçı köyü görünümündeki İskele Mahallesi, Yat Limanı’nın bitmesiyle birlikte apayrı bir kimliğe bürünmüş ve geleceğin yat turizmi merkezi olma yolunda ilk adımı atmıştır. Sahildeki balıkçı lokantaları, çay bahçeleri ile ayrı bir özelliğe sahiptir. Denize de girilebilmektedir.Konser gibi faliyetlere de ev sahipliği yapmaktadır.Kaz dağlarından gelen ve deniz üzerinden eserek İskele sahillerine ulaşan rüzgarın getirdiği iyot ve yoğun oksijen , şifa kaynağıdır.
 
-{% include image-gallery.html folder="/assets/images/oren/iskele/" %}
-
 ## Öğretmenler Mahallesi
-Pek çok turistik konaklama, eğlence, yeme-içme, alışveriş ve dinlenme tesislerinin bulunduğu bir sayfiye yeridir.
+Pek çok turistik konaklama, eğlence, yeme-içme , alışveriş ve dinlenme tesislerinin bulunduğu bir sayfiye yeridir.
 
 **Kaynak:** Wikipedia

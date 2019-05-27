@@ -1,6 +1,6 @@
 ---
 title: Tesisimiz
-layout: gallery
+layout: page
 # description: This is what I do.
 background: '/assets/images/bg-about.jpg'
 ---
