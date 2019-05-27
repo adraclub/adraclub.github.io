@@ -1,7 +1,6 @@
-anasanyfa:
-  name: Anasayfa
-  # icon: fe fe-home
-  url: index.html
+apartlarimiz:
+  name: Apartlarımız
+  url: apartlarimiz
 
 tesisimiz:
   name: Tesisimiz
@@ -12,8 +11,16 @@ aktiviteler:
   url: aktiviteler
 
 oren:
-  name: Ören Fotoğrafları
+  name: Ören
   url: oren
+
+burhaniye-tarihcesi:
+  name: Burhaniye
+  url: burhaniye-tarihcesi
+
+nasil-gidilir:
+  name: Nasıl Gidilir?
+  url: nasil-gidilir
 
 hakkimizda:
   name: Hakkımızda
