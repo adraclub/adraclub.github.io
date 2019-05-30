@@ -30,7 +30,7 @@
         "url": "https://github.com/adraclub/jekyll-hotel-adraclub.git"
     },
     "dependencies": {
-        "tabler-ui": "^0.0.34"
+        // "tabler-ui": "^0.0.34"
     },
     "devDependencies": {
         "browser-sync": "2.26.5",
