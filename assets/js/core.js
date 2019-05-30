@@ -51,6 +51,8 @@ $(document).ready(function () {
     offset: 56
   });
 
-  $('.gallery a').simpleLightbox();
+  if ($('.gallery').length) {
+    $('.gallery a').simpleLightbox();
+  }
 
 });
