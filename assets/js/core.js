@@ -2,6 +2,7 @@
  *
  */
 $(document).ready(function () {
+
   /** Initialize tooltips */
   $('[data-toggle="tooltip"]').tooltip();
 
@@ -49,5 +50,7 @@ $(document).ready(function () {
     target: '#mainNav',
     offset: 56
   });
+
+  $('.gallery a').simpleLightbox();
 
 });

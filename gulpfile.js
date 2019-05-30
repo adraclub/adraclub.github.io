@@ -56,12 +56,12 @@ function modules() {
   var js_vendors = gulp.src([
     '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
     '../../node_modules/jquery/dist/*.min.js',
-    '../../node_modules/baguettebox.js/dist/*.min.js',
+    '../../node_modules/simplelightbox/dist/*.min.js',
     '../../node_modules/jquery.easing/*.min.js',
   ]).pipe(gulp.dest('./assets/js/vendors'))
 
   var css_vendors = gulp.src([
-    '../../node_modules/baguettebox.js/dist/*.min.css',
+    '../../node_modules/simplelightbox/dist/*.min.css',
   ]).pipe(gulp.dest('./assets/css/vendors'))
 
   // Font Awesome Assets
