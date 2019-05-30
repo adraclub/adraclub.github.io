@@ -71,8 +71,12 @@
     font-weight: 500;
     padding:8px;
     a{
-      color:#fff;
+      color: $gray-500;
       text-decoration: none;
+
+      &:hover {
+        color: $gray-100;
+      }
     }
     ul {
         margin: 0;
@@ -93,7 +97,7 @@
       a:hover{
         @include transition-all();
         i{
-          color:$primary;
+          color: $gray-100;
         }
       }
     }
