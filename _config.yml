@@ -20,7 +20,6 @@ plugins:
   - jekyll-tidy
   - jekyll-toc
   - jekyll-random
-  # - jekyll-paginate
 
 theme-plugins:
   charts-c3:
