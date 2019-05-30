@@ -16,11 +16,11 @@ paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-tidy
   - jekyll-toc
   - jekyll-random
+  # - jekyll-paginate
 
 theme-plugins:
   charts-c3:
