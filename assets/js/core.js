@@ -45,12 +45,6 @@ $(document).ready(function () {
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#mainNav',
-    offset: 56
-  });
-
   if ($('.gallery').length) {
     $('.gallery a').simpleLightbox();
   }

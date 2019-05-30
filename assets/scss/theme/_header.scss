@@ -13,6 +13,16 @@
         padding: 1rem;
         @include transition-all;
 
+        .navbar-toggler {
+            border: none;
+
+        }
+
+        .navbar-toggler-icon {
+            color: #fff;
+            font-weight: 900;
+        }
+
         .navbar-brand {
             font-size: 1.8rem;
             font-weight: 900;
@@ -27,6 +37,16 @@
                     text-shadow: 1px 2px 4px #000000;
                 }
             }
+        }
+    }
+
+    .navbar-dark {
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-collapse {
+        ul li {
+            padding: 0 0 5px;
         }
     }
 }
@@ -47,7 +67,6 @@
 }
 
 .header-top {
-    background:#04091e;
     font-size: 0.85rem;
     font-weight: 500;
     padding:8px;
