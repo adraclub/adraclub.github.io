@@ -2,7 +2,7 @@
 title: Kullanım Koşulları
 layout: page
 # description: This is what I do.
-background: '/assets/images/bg-about.jpg'
+background: '/assets/images/bg.jpg'
 ---
 ## Adra Club Web Sitesi Kullanım Koşulları
 

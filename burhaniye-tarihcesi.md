@@ -2,7 +2,7 @@
 title: Burhaniye Tarihçesi
 layout: page
 # description: This is what I do.
-background: '/assets/images/bg-about.jpg'
+background: '/assets/images/bg.jpg'
 ---
 
 İlkçağdan günümüze önemli bir yerleşim merkezi olan ilçede yapılan kazılarda elde edilen bulgulara göre kentin ilk olarak Balkanlardan gelen Misyalılar tarafından kurulduğu anlaşılmaktadır. Antik kentin en bilinen adı Adramytteiondur. Önceleri kent merkezi Ören’de denize hakim bir tepeyken(Karataş Tepesi), zamanla iç kesimlere kaymış ve bugün komşu Edremit İlçesi ile bu ad hâlâ yaşamaktadır.

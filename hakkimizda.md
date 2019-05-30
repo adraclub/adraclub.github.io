@@ -2,7 +2,7 @@
 title: Hakkımızda
 layout: page
 # description: This is what I do.
-background: '/assets/images/bg-about.jpg'
+background: '/assets/images/bg.jpg'
 ---
 
 ## Ören Adra Club Apart Tatil Evleri
