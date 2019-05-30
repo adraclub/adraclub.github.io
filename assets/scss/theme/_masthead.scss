@@ -1,5 +1,5 @@
 // Styling for the masthead
-header.masthead {
+.masthead {
     padding: 150px 0 100px;
     position: relative;
     background-size: cover;
@@ -143,4 +143,8 @@ header.masthead {
             }
         }
     }
+}
+
+.masthead-page {
+    background: no-repeat top center;
 }
