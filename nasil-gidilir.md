@@ -1,5 +1,5 @@
 ---
-title: Nasıl Gidilir
+title: Nasıl Gidilir?
 layout: page
 # description: This is what I do.
 background: '/assets/images/bg.jpg'
