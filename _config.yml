@@ -16,8 +16,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-redirect-from
   - jekyll-tidy
-  - jekyll-toc
-  - jekyll-random
 
 exclude:
   - package.json
