@@ -3,7 +3,7 @@
     padding: 150px 0 100px;
     position: relative;
     background-size: cover;
-    background: no-repeat center center;
+    background-position: no-repeat center center;
     background-attachment: scroll;
     position: relative;
     @include background-cover;
@@ -146,5 +146,5 @@
 }
 
 .masthead-page {
-    background: no-repeat top center;
+    background-position: no-repeat top center;
 }

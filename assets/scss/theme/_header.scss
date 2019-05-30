@@ -45,3 +45,59 @@
         background: rgba(0, 0, 0, 0.7);
     }
 }
+
+.header-top {
+    background:#04091e;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding:8px;
+    a{
+      color:#fff;
+      text-decoration: none;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    ul li{
+      display:inline-block;
+      margin-right: 15px;
+    }
+    .header-top-left{
+      text-align:left;
+      i{
+        @include transition-all();
+      }
+      a{
+        margin-right:10px;
+      }
+      a:hover{
+        @include transition-all();
+        i{
+          color:$primary;
+        }
+      }
+    }
+
+    .header-top-right{
+      text-align: right;
+      a{
+          margin-right:10px;
+        .fa{
+          display:none;
+          font-weight:700;
+        }
+      }
+    
+      @media(max-width:480px){
+        a{
+          .fa{
+            display:inline-block;
+          }
+          .text{
+            display:none;
+          }
+        }
+      }
+}
+}

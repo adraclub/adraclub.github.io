@@ -3,14 +3,33 @@
     // @include sans-serif-font;
 
     h4 {
-        color: $gray-600;
+        color: $gray-300;
         text-transform: uppercase;
         font-size: $font-size-sm;
-        font-weight: 500;
+        font-weight: 700;
         @include sans-serif-font;
     }
 
     .footer-sub {
         font-size: $font-size-sm;
+    }
+
+    ul {
+        li {
+            padding: 0 0 5px;
+            
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    color: $gray-200;
+                }
+            }
+            i {
+                width: 16px;
+                padding: 0 5px 0 0;
+            }
+        }
+
     }
 }

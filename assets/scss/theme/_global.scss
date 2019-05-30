@@ -1,3 +1,7 @@
+a {
+    @include transition-all();
+}
+
 // Custom horizontal rules
 hr.divider {
     max-width: 3.25rem;
