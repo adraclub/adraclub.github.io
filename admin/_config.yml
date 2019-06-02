@@ -1,0 +1,4 @@
+backend:
+  name: github
+  repo: adraclub/adraclub.github.io # your GitHub username and repository name, separated by a slash
+  branch: master # optional, default value is "master"
