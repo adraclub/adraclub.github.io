@@ -5,6 +5,8 @@ layout: page
 background: '/assets/images/bg.jpg'
 ---
 
+{% include map.html %}
+
 ### Otobüs
 Günün Her saatinde Burhaniye ile İstanbul, Ankara, Çanakkale ve Bursa arasında hergün saat 24:00′a kadar çok sayıda otobüs şirketlerinin karşılıklı otobüs seferleri yapılmaktadır. Burhaniye’den Otobüs Şirketlerinin Özel servisleri ile Ören’e kadar gelebilirsiniz.
 
