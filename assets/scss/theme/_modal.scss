@@ -3,7 +3,6 @@
   position: fixed;
   margin: auto;
   width: 320px;
-  height: 100%;
   -webkit-transform: translate3d(0%, 0, 0);
   -ms-transform: translate3d(0%, 0, 0);
   -o-transform: translate3d(0%, 0, 0);
@@ -19,6 +18,7 @@
 /*Right*/
 .modal.right.fade .modal-dialog {
   right: -320px;
+  bottom: 0;
   -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
   -o-transition: opacity 0.3s linear, right 0.3s ease-out;
