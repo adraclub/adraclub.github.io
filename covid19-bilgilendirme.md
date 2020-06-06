@@ -7,11 +7,11 @@ background: "/assets/images/bg.jpg"
 
 ### Biz Hazırız
 
-#### Covid-19 ‘dan uzak Alman malı Biyosidal Belgeli dezenfektelerle korunan Tatil Evlerimize bekliyoruz.
+#### Covid-19'dan uzak Alman malı Biyosidal Belgeli dezenfektelerle korunan Tatil Evlerimize bekliyoruz.
 
 Tüm dünyaca etkilenen salgın hastalıktan (Pandemi) işletmemiz; değerli siz misafirlerimizin en sağlıklı ve huzur dolu tatil yapabilmesi için en kaliteli dezenfektelerle Tatil Evlerimizi arındırıyoruz.
 
-Dünya’ya kalitesini ve markasını kanıtlamış olan Alman menşeli
+Dünya'ya kalitesini ve markasını kanıtlamış olan Alman menşeli
 **"NILCO REINIGUNGSMASCHINEN"** marka T.C.Sağlık Bakanlığı Biyosidal Ruhsatlı olup Sargem Ar-Ge merkezinde yapılan araştırmalarda ise kullandığımız Nilco DESQUART 620 ortam ve yüzey dezenfektanı ile Sanisept H-711 El ve cilt dezenfektanı Covid-19, diğer virüs ve bakterilerde tam başarı sağlamış durumdadır.
 
 Pahalı olan Nilco marka ürünler için hiçbir maliyet yaşamımızı geri getiremez mantığıyla bu ürünleri tereddütsüzce kullanmakayız.
