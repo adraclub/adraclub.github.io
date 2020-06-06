@@ -49,4 +49,17 @@ $(document).ready(function () {
     $('.gallery a').simpleLightbox();
   }
 
+  if (document.cookie.indexOf('show_covid_info=true') == -1){
+      // Show covidInfo Modal
+      setTimeout(function(){
+        $('#covidInfo').modal({show:true});
+      }, 1000);
+
+      // set Expiration time for show_covid_info cookie
+      var day = 1000*60*60*24;
+      var expires = new Date((new Date()).valueOf() + day);
+      document.cookie = "show_covid_info=true;expires=" + expires.toUTCString();
+    }
+  
+
 });

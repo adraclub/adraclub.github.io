@@ -1,35 +1,41 @@
 <meta charset="UTF-8">
-<meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta http-equiv="Content-Language" content="en" />
+<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+<meta content="ie=edge" http-equiv="X-UA-Compatible">
+<meta content="en" http-equiv="Content-Language"/>
 
-<meta name="msapplication-TileColor" content="#2d89ef">
-<meta name="theme-color" content="#4188c9">
+<meta content="#2d89ef" name="msapplication-TileColor">
+<meta content="#4188c9" name="theme-color">
 
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="mobile-web-app-capable">
+<meta content="True" name="HandheldFriendly">
+<meta content="320" name="MobileOptimized">
 
-<link rel="icon" href="./favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-<link rel="manifest" href="./site.webmanifest">
+<link href="./favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="./favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="./apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="./favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<link href="./site.webmanifest" rel="manifest">
 
 <!-- Generated: {{ site.time }} -->
 
-<title>{% if page.title %}{{ page.title }} - {% endif %}{% if layout.title %}{{ layout.title }} -
-    {% endif %}{{ site.description }}</title>
+<title>
+    {% if page.title %}
+        {{ page.title }}
+        -
+    {% endif %}
+    {% if layout.title %}
+        {{ layout.title }}
+        -
+    {% endif %}
+    {{ site.description }}</title>
 
 <!-- Google Fonts -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Kaushan+Script:400|Oswald:300,400,500|Roboto:400,400i,500|Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script:400|Oswald:300,400,500|Roboto:400,400i,500|Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 
 <!-- Styles -->
-<link href="./assets/css/style{% if page.rtl %}-rtl{% endif %}.css" rel="stylesheet" />
-<link href="./assets/css/theme{% if page.rtl %}-rtl{% endif %}.css" rel="stylesheet" />
+<link href="./assets/css/style{% if page.rtl %}-rtl{% endif %}.css" rel="stylesheet"/>
+<link href="./assets/css/theme{% if page.rtl %}-rtl{% endif %}.css" rel="stylesheet"/>
