@@ -23,8 +23,8 @@ background: "/assets/images/bg.jpg"
 
 ### Kurallar
 
-- Ek yatak ilave edilebilir. Ek yatak ücreti : 25,00 TL.dir.
-- Ek yatak ilave edilmeden konaklama yapanlarda 4 kişi üzerindeki kişilerden 20,00 TL. ücret alınır.
+- Ek yatak ilave edilebilir. Ek yatak ücreti : 35,00 TL.dir.
+- Ek yatak ilave edilmeden konaklama yapanlarda 4 kişi üzerindeki kişilerden 25,00 TL. ücret alınır.
 - 0-3 yaş ücretsizdir.
 - Rezervasyon onayı için gün sayısına göre toplam bedelin %50-%100 arasında peşin olarak alınır.
 
@@ -45,8 +45,8 @@ background: "/assets/images/bg.jpg"
 
 ### Kurallar
 
-- Ek yatak ilave edilebilir. Ek yatak ücreti : 25,00 TL.dir.
-- Ek yatak ilave edilmeden konaklama yapanlarda 6 kişi üzerindeki kişilerden 20,00 TL. ücret alınır.
+- Ek yatak ilave edilebilir. Ek yatak ücreti : 35,00 TL.dir.
+- Ek yatak ilave edilmeden konaklama yapanlarda 6 kişi üzerindeki kişilerden 25,00 TL. ücret alınır.
 - 0-3 yaş ücretsizdir.
 - Rezervasyon onayı için gün sayısına göre toplam bedelin %50-%100 arasında peşin olarak alınır.
 
