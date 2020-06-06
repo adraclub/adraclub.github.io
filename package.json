@@ -11,13 +11,13 @@
         "theme",
         "template"
     ],
-    "homepage": "https://statixdesign.com/template-overviews/jekyll-hotel-adraclub",
+    "homepage": "https://github.com/adraclub/adraclub.github.io",
     "scripts": {
         "build": "bundle exec jekyll build",
         "serve": "bundle exec jekyll serve"
     },
     "bugs": {
-        "url": "https://github.com/adraclub/jekyll-hotel-adraclub/issues",
+        "url": "https://github.com/adraclub/adraclub.github.io/issues",
         "email": "feedback@statixdesign.com"
     },
     "license": "MIT",
@@ -27,7 +27,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/adraclub/jekyll-hotel-adraclub.git"
+        "url": "https://github.com/adraclub/adraclub.github.io.git"
     },
     "dependencies": {},
     "devDependencies": {
