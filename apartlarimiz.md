@@ -28,8 +28,7 @@ background: "/assets/images/bg.jpg"
 - 0-5 yaş ücretsizdir.
 - Rezervasyon onayı için gün sayısına göre toplam bedelin %50-%100 arasında peşin olarak alınır.
 
-{% include image-gallery.html folder="/assets/images/tesisimiz/apart-4/" %}
-{% include image-gallery.html folder="/assets/images/tesisimiz/odalar/" %}
+{% include image-gallery.html folder="/assets/images/odalar/apart-4/" %}
 
 ## 6 Kişilik Apartlarımız
 
@@ -50,8 +49,7 @@ background: "/assets/images/bg.jpg"
 - 0-5 yaş ücretsizdir.
 - Rezervasyon onayı için gün sayısına göre toplam bedelin %50-%100 arasında peşin olarak alınır.
 
-{% include image-gallery.html folder="/assets/images/tesisimiz/apart-6/" %}
-{% include image-gallery.html folder="/assets/images/tesisimiz/odalar/" %}
+{% include image-gallery.html folder="/assets/images/odalar/apart-6/" %}
 
 ### Genel Kurallar
 
