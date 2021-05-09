@@ -6,3 +6,4 @@ background: '/assets/images/bg.jpg'
 ---
 
 {% include image-gallery.html folder="/assets/images/tesisimiz" %}
+{% include image-gallery.html folder="/assets/images/aktiviteler/tesisimiz-aktiviteler" %}

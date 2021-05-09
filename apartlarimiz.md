@@ -23,9 +23,9 @@ background: "/assets/images/bg.jpg"
 
 ### Kurallar
 
-- Ek yatak ilave edilebilir. Ek yatak ücreti : 35,00 TL.dir.
-- Ek yatak ilave edilmeden konaklama yapanlarda 4 kişi üzerindeki kişilerden 25,00 TL. ücret alınır.
-- 0-3 yaş ücretsizdir.
+- Ek yatak ilave edilebilir. Ek yatak ücreti : 40,00 TL.dir.
+- Ek yatak ilave edilmeden konaklama yapanlarda 4 kişi üzerindeki kişilerden 30,00 TL. ücret alınır.
+- 0-5 yaş ücretsizdir.
 - Rezervasyon onayı için gün sayısına göre toplam bedelin %50-%100 arasında peşin olarak alınır.
 
 {% include image-gallery.html folder="/assets/images/tesisimiz/apart-4/" %}
@@ -45,9 +45,9 @@ background: "/assets/images/bg.jpg"
 
 ### Kurallar
 
-- Ek yatak ilave edilebilir. Ek yatak ücreti : 35,00 TL.dir.
-- Ek yatak ilave edilmeden konaklama yapanlarda 6 kişi üzerindeki kişilerden 25,00 TL. ücret alınır.
-- 0-3 yaş ücretsizdir.
+- Ek yatak ilave edilebilir. Ek yatak ücreti : 40,00 TL.dir.
+- Ek yatak ilave edilmeden konaklama yapanlarda 6 kişi üzerindeki kişilerden 30,00 TL. ücret alınır.
+- 0-5 yaş ücretsizdir.
 - Rezervasyon onayı için gün sayısına göre toplam bedelin %50-%100 arasında peşin olarak alınır.
 
 {% include image-gallery.html folder="/assets/images/tesisimiz/apart-6/" %}
@@ -62,8 +62,11 @@ background: "/assets/images/bg.jpg"
 
 ### REZERVASYON İPTAL HALİNDE
 
-1. Tesisimize giriş tarihinden 15 gün öncesindeki bildirimlerinizde kapora bedelinin tamamı iade edilir.
-2. Tesise girişi İptal bildirimiz, giriş tarihinize 15 günden az süre kaldı ise kapora bedeliniz için size 2 yıl içerisinde kullanılmak üzere kart düzenlenir. ( Kart ibrazı mecburidir, kart hamili tarafından kullanılabilir.)
+1. Giriş tarihinden 20 gün öncesindeki bildirimlerinizde kapora bedelinin tamamı iade edilir.
+2. Giriş tarihinden 20-7 gün içinde bildirilmesi durumunda misafirimizin isteğine bağlı olarak 2 alternatif sunulur:
+ - 2 günlük ücret tahsil edilip bakiyesi iade edilebilir,
+ - Toplam alınacak bölümü için 2 sene içerisinde kullanılabilmek için özel kart verilebilir.
+3. Giriş tarihinin 7 günden az süre içinde bildirilmesi durumunda kapora bedeli iade edilmez.
 
 ### ERKEN ÇIKIŞ HALİNDE
 

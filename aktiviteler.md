@@ -19,14 +19,13 @@ Tarihsel ve panaromik güzellikleri görebilmek için ; Ören’i merkez olarak 
 
 Günübirlik Yat Turlarında farklı güzellikler sizleri beklemektedir.
 
-{% include image-gallery.html folder="/assets/images/oren/turlar/" %}
-
+{% include image-gallery.html folder="/assets/images/aktiviteler/turlar/" %}
 
 
 ### Diğer Etkinlikler
 
 Adra Club ayrıcalığıyla sizleri daha birçok etkinlik beklemektedir. Asırlık çınar ağaçları altında hamak keyfi, kafeteryamızda langırt, play station oynayabilir, tv izleyebilirsiniz. Ayrıca günün istediğiniz vaktinde ailenizle mangal yakıp keyif yapabilirsiniz.
 
-{% include image-gallery.html folder="/assets/images/aktiviteler/langirt/" %}
-{% include image-gallery.html folder="/assets/images/aktiviteler/kafeterya/" %}
+{% include image-gallery.html folder="/assets/images/aktiviteler/tesisimiz-aktiviteler/langirt/" %}
+{% include image-gallery.html folder="/assets/images/aktiviteler/tesisimiz-aktiviteler/kafeterya/" %}
 

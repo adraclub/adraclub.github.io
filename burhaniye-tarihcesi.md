@@ -18,3 +18,5 @@ Madra dağının suyunu yöreye taşıyan su kemerlerine atfen Kemer olarak adla
 İlçenin Milli Mücadele’de ayrı ve özel bir yeri vardır. İlk kurşunu atma şerefini Burhaniye’liler taşımaktadır. İlçe, 29 Haziran 1920’de Yunan işgaline uğramış ve 8 Eylül 1922’de Yunan işgalinden kurtulmuştur.
 
 **Kaynak:** Wikipedia
+
+{% include image-gallery.html folder="/assets/images/tarihce" %}
